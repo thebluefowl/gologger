@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	logger "github.com/sarathsp06/gologger"
+	logger "github.com/devpyp/gologger"
 )
 
 func main() {
