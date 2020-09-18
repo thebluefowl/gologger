@@ -1,5 +1,7 @@
 version = 1
 
+test_patterns = ["sample/*"]
+
 [[analyzers]]
 name = "go"
 enabled = true
