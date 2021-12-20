@@ -10,6 +10,7 @@ func main() {
 	if err := logger.InitLogger(logger.DEBUG, ".", "sample_logger", true); err != nil {
 		panic(err.Error())
 	}
+	
 	logger.SetLogWriter(os.Stdout)
 	logger.Monitor(logger.NewMetric("test").Field("Thenga", "Manga"))
 	logger.SetLogType("application")
