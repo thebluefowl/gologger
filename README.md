@@ -3,7 +3,7 @@
 # gologger
 [![Build Status](https://travis-ci.org/devpyp/gologger.svg?branch=master)](https://travis-ci.org/devpyp/gologger)
 [![Join the chat at https://gitter.im/gologger/Lobby](https://badges.gitter.im/gologger/Lobby.svg)](https://gitter.im/gologger/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Go Report Card](https://goreportcard.com/badge/github.com/sarathsp06/gologger)](https://goreportcard.com/report/github.com/sarathsp06/gologger)
-[![DeepSource](https://deepsource.io/gh/devpyp/gologger.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/devpyp/gologger/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/thebluefowl/gologger.svg/?label=active+issues&show_trend=true&token=DkwHo_ofhvSCp4f2C02BS_Ag)](https://deepsource.io/gh/thebluefowl/gologger/?ref=repository-badge)
 > Logger library for the gophers
 
 An openionated logging library for golang.Gologger writes logs as json in the following format
