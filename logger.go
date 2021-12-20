@@ -33,7 +33,7 @@ func (l *Logger) SetLogType(logType string) *Logger {
 //Log given the stack depth and level with an array of messages
 //decides if to be Written to logs ans writes to log with FileName and LineNum
 //taken from runtime Info
-func (l Logger) Log(depth int, level string, message string) {
+func (l Logger) Log(depth int, level, message string) {
 	level = strings.ToUpper(level)
 	if levelPriority, ok := LogLevels[level]; ok && levelPriority > l.LogLevel {
 		return
