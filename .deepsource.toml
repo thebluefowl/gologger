@@ -6,3 +6,8 @@ enabled = true
 
   [analyzers.meta]
   import_root = "github.com/thebluefowl/gologger"
+  dependencies_vendored = false
+
+[[analyzers]]
+name = "secrets"
+enabled = true
